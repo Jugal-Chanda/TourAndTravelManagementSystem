@@ -1,0 +1,38 @@
+<div>
+                
+            
+                <div>
+                    <input type="text" placeholder="Search.." class="tourist_place_search">
+                    <button type="submit" style="height: 40px;"><i class="fa fa-search"></i></button>
+                    <button type="submit" style="height: 40px;">Rated
+                        <div style="position: relative;display: inline;">
+                            <i class="fa fa-sort-down" ></i>
+                            <i class="fa fa-sort-up" style="position: absolute;left: 0px;top: 0px;"></i>
+                        </div>
+                    </button>
+                     <button type="submit" style="height: 40px;">Travel Cost
+                        <div style="position: relative;display: inline;">
+                            <i class="fa fa-sort-down" ></i>
+                            <i class="fa fa-sort-up" style="position: absolute;left: 0px;top: 0px;"></i>
+                        </div>
+                    </button>
+                    
+                </div>
+                <div class="row" id="tourist_place_body" style="margin-left: 0px;margin-right: 0px;margin-top: 5px;">
+                    <?php for ($i=0; $i < 200; $i++) { ?>
+                     
+                    <div class="col-md-6 col-lg-3 col-sm-12 tourist_place_img_div" style="height: 300px;padding: 0px;">
+                        <img src="project/bandorban.jpg" style="height: 90%;width: 100%; border: 2px solid white;z-index: 1;">
+                        <div class="tourist_place_name">
+                            <div style="height: 100%;width: 100%;line-height: inherit;">Dhaka Bangladesh <?php echo $i; ?></div>
+                        </div>
+                        <div class="travel_cost">
+                            Two Way Travel Cost : 1500tk
+                        </div>
+                    </div>
+
+                    <?php  } ?>  
+                     
+                </div>
+
+            </div>
