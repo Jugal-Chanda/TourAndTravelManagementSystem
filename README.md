@@ -6,11 +6,11 @@ After an user request to travel it goes to admin panaek for approved request.
 
 In admin panel of this system at he need to sign in with admin user name and admin password. From admin panel an admin can add galary image, new place, new hotel. Again he can edit of them. After travel request of user approved by admin then user is notified about this.
 
-#Installation guide
+# Installation guide
 
 1)  For installing this system in your local PC you need to install xampp for web server in your local pc.
 
-    #xampp Installation
+    # xampp Installation
     For installing xampp go to https://www.apachefriends.org/download.html and download 7.3.7 / PHP 7.3.7 version. and install it   normally.
   
 2)  After installing xammp download this project as a .zip file.  Unzip it first.
