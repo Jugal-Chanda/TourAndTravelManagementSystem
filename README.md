@@ -22,4 +22,4 @@ In admin panel of this system at he need to sign in with admin user name and adm
 8)  Then search in webbrowser http://localhost/ttm/ for user pannel. If you use any other name in step 4 then you search http://localhost/{your selected name (with out courly bracket)}/
 9)  And searcg http://localhost/ttm/admin/ for admin pannel.
 
-#Thank You
+# Thank You
